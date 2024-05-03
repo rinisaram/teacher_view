@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe7e3; /* Optional background color */
+  }
+    
+    .container {
+      display: flex; /* Container uses flexbox */
+      width: 80%; /* Adjust container width as needed */
+    }
+    
+    .left-image {
+      width: 50%; /* Set image width to half the container */
+      object-fit: contain; /* Scale image to fill container height */
+    }
+    
+    .login-box {
+      background-color: #fff;
+      padding: 50px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 50%; /* Set login box width to half the container */
+    }
+    
+    h2 {  /* Target the heading (<h2>) */
+      margin-bottom: 20px;
+      color: #000;  /* Change text color to white */
+      font-size: 2em;  /* Increase font size to 2 times the default */
+    }
+    
+    .button-container {
+      display: flex;
+      flex-direction: column; /* Buttons stacked vertically */
+      gap: 20px; /* Space between buttons */
+    }
+    
+    button {
+      padding: 50px 100px;
+      border: none;
+      border-radius: 5px; /* Button corner roundness */
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    button:hover {
+      background-color: #2980b9; /* Hover effect for both buttons */
+    }
+    
